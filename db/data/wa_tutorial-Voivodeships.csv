@@ -1,0 +1,11 @@
+ID,country_code,name,capital,population,createdAt,createdBy,modifiedAt,modifiedBy
+18905104-21ee-4150-8cbc-a13397896030,818,name-18905104,capital-18905104,12,2009-05-13T00:00:00.000Z,createdBy.b979s@example.net,2021-12-14T00:00:00.000Z,modifiedBy.b979s@example.com
+18905105-9a4f-4b6b-a321-b23cc0a57f24,818,name-18905105,capital-18905105,32,2002-10-17T00:00:00.000Z,createdBy.b979t@example.net,2002-05-01T00:00:00.000Z,modifiedBy.b979t@example.com
+18905106-a9f2-498e-9c19-5786ef73ff8b,818,name-18905106,capital-18905106,33,2018-08-16T00:00:00.000Z,createdBy.b979u@example.com,2014-05-26T00:00:00.000Z,modifiedBy.b979u@example.net
+18905107-8224-4e6c-90df-ae7b17ac59a5,818,name-18905107,capital-18905107,68,2002-08-01T00:00:00.000Z,createdBy.b979v@example.com,2016-05-23T00:00:00.000Z,modifiedBy.b979v@example.com
+18905108-f452-43a6-9527-8a9246488825,818,name-18905108,capital-18905108,56,2015-07-12T00:00:00.000Z,createdBy.b979w@example.org,2003-01-26T00:00:00.000Z,modifiedBy.b979w@example.com
+18905109-f24c-4e56-973e-6ac45832bcf4,818,name-18905109,capital-18905109,67,2001-07-07T00:00:00.000Z,createdBy.b979x@example.net,2017-05-17T00:00:00.000Z,modifiedBy.b979x@example.org
+18905110-7060-4ce2-8a12-8524836ac450,818,name-18905110,capital-18905110,28,2020-03-15T00:00:00.000Z,createdBy.b979y@example.com,2003-12-20T00:00:00.000Z,modifiedBy.b979y@example.com
+18905111-c762-4db6-83ab-5b8be0098a51,818,name-18905111,capital-18905111,89,2010-07-19T00:00:00.000Z,createdBy.b979z@example.org,2021-03-24T00:00:00.000Z,modifiedBy.b979z@example.org
+18905112-1e8e-40bc-85e1-0593db604cc2,818,name-18905112,capital-18905112,55,2017-06-21T00:00:00.000Z,createdBy.b97a0@example.com,2010-02-27T00:00:00.000Z,modifiedBy.b97a0@example.org
+18905113-4188-44bc-a11f-03d609bc7a92,818,name-18905113,capital-18905113,81,2018-06-05T00:00:00.000Z,createdBy.b97a1@example.org,2010-02-09T00:00:00.000Z,modifiedBy.b97a1@example.com
