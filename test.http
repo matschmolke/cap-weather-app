@@ -1,0 +1,11 @@
+### Get województwa
+GET http://localhost:4004/demo/Voivodeships
+
+POST http://localhost:4004/demo/Voivodeships
+Content-Type: application/json
+
+{
+    "name": "Racibórz",
+    "postalCode": "47-400",
+    "population": 52000,
+}
