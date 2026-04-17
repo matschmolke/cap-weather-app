@@ -60,7 +60,6 @@ type conditionsCode : String(1) enum {
     Bad = 'B';
 }
 
-
 type source : String enum {
     API = 'API';
     MANUAL = 'MANUAL';
