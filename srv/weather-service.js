@@ -19,6 +19,28 @@ module.exports = class WeatherService extends cds.ApplicationService {
       console.log('After READ')
     })
 
+    this.before('PATCH', Voivodeships.drafts, async(req) =>  {
+      let { population } = req.data
+      if (parseInt(population) < 0) {
+          req.error('Population cannot be under 0!')
+      }
+    })
+
+    this.before('SAVE', Voivodeships.drafts, async (req) => {
+      console.log('EVENT SAVE')
+    })
+
+    this.on('getInfoBoundAction', Voivodeships, async (req) => {
+      console.log('This is bound action')
+    })
+
+    this.on('getInfoBoundAction', Voivodeships.drafts, async (req) => {
+      console.log('This is draft bound action')
+    })
+
+    this.on('getInfoUnboundAction', Voivodeships, async (req) => {
+      console.log('This is an unbound action')
+    })
     return super.init()
   }
 }
