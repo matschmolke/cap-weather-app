@@ -312,5 +312,12 @@ annotate service.Temperatures with @(
             },
         ],
     },
+    UI.Identification : [
+        {
+            $Type : 'UI.DataFieldForAction',
+            Action : 'WeatherService.getTemperatureFromApi',
+            Label : 'getTemperatureFromApi',
+        },
+    ],
 );
 
